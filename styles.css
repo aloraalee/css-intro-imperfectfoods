@@ -1,8 +1,38 @@
-/* FONT */
-/* font-family: 'Yanone Kaffeesatz', sans-serif; */
+/* Make the text match the font and sizing from the comp
+Make the colors match the comp
+Make the image sizes match the comp
+Style the button to match the comp */
 
-/* COLORS */
-/* background color -> #B4E4E6 */
-/* text color -> #453D3D */
-/* button color -> #B32274 */
-/* button text color -> white */
+body {
+  font-family: 'Yanone Kaffeesatz', sans-serif; 
+  font-weight: 300;
+  letter-spacing: 0.05cap;
+  text-align: center;
+  background-color: #B4E4E6;
+  color: #453D3D;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 25px;
+}
+
+button {
+  background-color: #B32274;
+  color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif; 
+  border-radius: 10px;
+  padding: 10px 50px;
+  font-size: 30px;
+}
+
